@@ -6,6 +6,8 @@ const axios = require("axios");
 
 const expressConfing = require('./config/express');
 const databaseConfig = require('./config/database');
+require('dotenv').config();
+
 const routesConfig = require('./config/routes');
 
 start();
